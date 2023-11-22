@@ -5,7 +5,7 @@ Este repositorio contiene nuestro proyecto de tres semanas, en el que estamos tr
 para replicar la página de inicio de Nintendo de la versión de la página web de EEUU.
 
 ## Acerca del proyecto
-Recibimos la tarea de recrear la página de inicio de Nintendo <img src="https://github.com/ruizj/Iconos/blob/main/nintendo_logo_icon_181362.svg" tittle="NINTENDO" alt="Nintendo" witdh="20" height="20"/>&nbsp; (https://www.nintendo.com/us/) el 21 de noviembre de 2023.
+Recibimos la tarea de recrear la página de inicio de Nintendo <img src="https://raw.githubusercontent.com/ruizj/Iconos/blob/main/nintendo_logo_icon_181362.svg" tittle="NINTENDO" alt="Nintendo" />&nbsp; (https://www.nintendo.com/us/) el 21 de noviembre de 2023.
 Nuestro objetivo es replicar la página lo más fielmente posible utilizando solo HTML <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/HTML.svg" tittle="HTML5" alt="HTML" witdh="20" height="20"/>&nbsp;
  y CSS <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CSS.svg" tittle="CSS3" alt="CSS" witdh="20" height="20"/>
 .
