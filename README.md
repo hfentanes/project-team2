@@ -2,13 +2,13 @@
 
 ## ¡Hola! Somos el Team 2 del Bootcamp de Develhope.
 Este repositorio contiene nuestro proyecto de tres semanas, en el que estamos trabajando
-para replicar la página de inicio de Nintendo de la versión de la página web de EEUU.
+para replicar la página de inicio de Nintendo de la versión de la página web de EEUU (https://www.nintendo.com/us/).
 
 ## Acerca del proyecto
-Recibimos la tarea de recrear la página de inicio de Nintendo(https://www.nintendo.com/us/) el 21 de noviembre de 2023.
-Nuestro objetivo es replicar la página lo más fielmente posible utilizando solo HTML <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/HTML.svg" tittle="HTML5" alt="HTML" witdh="20" height="20"/>&nbsp;
- y CSS <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CSS.svg" tittle="CSS3" alt="CSS" witdh="20" height="20"/>
-.
+Recibimos la tarea de recrear la página de inicio de Nintendo el 21 de noviembre de 2023.
+Nuestro objetivo es replicar la página lo más fielmente posible utilizando solo:
+- <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/HTML.svg" tittle="HTML5" alt="HTML" witdh="16" height="16"/>&nbsp; HTML
+- <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CSS.svg" tittle="CSS3" alt="CSS" witdh="16" height="16"/>&nbsp; CSS
 
 Este proyecto es una excelente oportunidad para nosotros para mejorar nuestras habilidades de codificación y aprender a trabajar en equipo.
 Estamos ansiosos por ver cómo se desarrolla nuestro proyecto en las próximas tres semanas.
