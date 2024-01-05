@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+
     <title>Carrusel Nintendo</title>
 </head>
+
 <body>
     
     <div class="fondo"></div>
-        
+
     <div class="carrusel">
-        <input type="radio" name="slide" id="slide1" checked>
-            <input type="radio" name="slide" id="slide2">
-            <input type="radio" name="slide" id="slide3">
-            <input type="radio" name="slide" id="slide4">
-            <input type="radio" name="slide" id="slide5">
-            <input type="radio" name="slide" id="slide6">
-            <input type="radio" name="slide" id="slide7">
+
         <div class="slides">
-            
+
             <div class="slide">
                 <img src="Imagenes/1.PNG" alt="Imagen 1">
                 <p>
@@ -40,15 +37,22 @@
             </div>
         </div>
         <div class="botones">
-            <label class="flechas" for="slide1"><</label>
-            <label class="play" for="slide6">&#9654;</label>
-            <label class="deslizador" for="slide2"></label>
-            <label class="deslizador" for="slide3"></label>
-            <label class="deslizador" for="slide4"></label>
-            <label class="flechas"for="slide5">></label>
+            <button class="anterior">Anterior</button>
+            <button class="play">▶</button>
+            <div class="indicador">
+                <input type="radio" name="imagen" id="imagen1" value="0" checked>
+                <label for="imagen1"></label>
+                <input type="radio" name="imagen" id="imagen2" value="1">
+                <label for="imagen2"></label>
+                <input type="radio" name="imagen" id="imagen3" value="2">
+                <label for="imagen3"></label>
+              </div>
+            <button class="siguiente">Siguiente</button>
+
         </div>
     </div>
     </div>
-   
+    <script src="script.js"></script>
 </body>
+
 </html>
