@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="./src/styles/fonts.css">
   <link rel="stylesheet" href="./src/styles/index.css">
   <link rel="stylesheet" href="./src/styles/vitrinas.css">
+  <link rel="stylesheet" href="./src/styles/carrusel.css">
+  <link rel="stylesheet" href="./src/styles/characters.css">
 
 </head>
 
@@ -240,7 +242,52 @@
 
       <!----Aquí termina  el header-->
 
+      <!----Aquí empieza el carrusel-->
+       <div class="fondo"></div>
 
+       <div class="carrusel">
+   
+           <div class="slides">
+   
+               <div class="slide">
+                   <img src="src/images/carrusel/1.PNG" alt="Imagen 1">
+                   <p>
+                       Save on system bundles with games included <button>Shop the deals</button>
+                   </p>
+               </div>
+               <div class="slide">
+                   <img src="src/images/carrusel/2.PNG" alt="Imagen 2">
+                   <p>
+                       Last chance to save up to 50% on select games! <button>Bring on the bargains</button>
+                   </p>
+               </div>
+               <div class="slide">
+                   <img src="src/images/carrusel/3.PNG" alt="Imagen 3">
+                   <p>
+                       Check off your list with our Holiday Gift Guide <button>Start shopping</button>
+                   </p>
+               </div>
+           </div>
+           <div class="botones">
+               <button class="anterior">&#10094;</button>
+               <button class="play">▶</button>
+               <div class="indicador">
+                   <input type="radio" name="imagen" id="imagen1" value="0" checked>
+                   <label for="imagen1"></label>
+                   <input type="radio" name="imagen" id="imagen2" value="1">
+                   <label for="imagen2"></label>
+                   <input type="radio" name="imagen" id="imagen3" value="2">
+                   <label for="imagen3"></label>
+                 </div>
+               <button class="siguiente">&#10095;</button>
+   
+           </div>
+       </div>
+       </div>
+       <script src="src/scripts/script.js"></script>
+   
+   
+      <!-- Aquí termina el carrusel-->
 
 
 
@@ -630,7 +677,7 @@
                       <div class="img-back"><img class="art-img" src="./src/images/blog/blog-art-2.jpg" alt=""></div>
                       <div class="art-txt">
                           <div class="art-date">11/21/23</div>
-                          <div class="art-title">Earn Gold Points on your purchase or renewal of a 12-month <br> Nintendo Switch Online or Nintendo Switch Online + Expansion...</div>
+                          <div class="art-title">Earn Gold Points on your purchase or renewal of a 12-month Nintendo Switch Online or Nintendo Switch Online + Expansion...</div>
                           <div class="art-description">For a limited time, earn Gold Points* on your purchase or renewal of 12 month Nintendo Switch Online memberships**. Been thinking of...</div>
                           <div class="art-button">Read More</div>
                       </div>
@@ -667,7 +714,7 @@
                       <div class="img-back"><img class="art-img" src="./src/images/blog/blog-art-5.jpg" alt=""></div>
                       <div class="art-txt">
                           <div class="art-date">11/17/23</div>
-                          <div class="art-title">Team up with Mario and an <br>oddball group of heroes in Super Mario RPG availabre  now</div>
+                          <div class="art-title">Team up with Mario and an oddball group of heroes in Super Mario RPG availabre  now</div>
                           <a class="art-button">Read More</a>
                       </div>
                   </div>
@@ -696,129 +743,73 @@
       </div>
 
       <!--Characters-->
-      Characters
-      </h2>
-      <div class="Characters_styles">
-        <!--Parte Foto Super Mario-->
-        <a aria-label="Mario" href="https://mario.nintendo.com" class="Characters_anchor">
-          <div class="Image_styles">
-            <img alt="" src="https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/mario-bg" class="styles_image" />
-          </div>
-          <div class="Image_wrapper">
-            <img alt="Mario" class="Imagestyles_cloud" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_200/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Mario" />
-          </div>
-        </a>
-        <h3 class="Heading_styles">
-          Super Mario™
-        </h3>
+ <section class="seccion">
+  <h2 class="titulo1">Characters</h2>
+  <div class="contenedor-total">  
+  <div class="carta">
+      <div class="contenedor">
+          <img src="./src/images/Fotos Characters/MarioFondo.jpg" alt="" class="mariofondo" />
+          <img src="./src/images/Fotos Characters/MarioFoto.jpg" alt="" class="mario" />
       </div>
-      <div class="Characters_styles">
-        <!--Parte Foto The Legend of Zelda-->
-        <a aria-label="Link" href="https://zelda.nintendo.com" class="Characters_anchor">
-          <div class="Image_styles">
-            <img alt="" src="https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/Character Portals/The Legend of Zelda/1600x1600_background_02" class="styles_image" />
-          </div>
-          <div class="Image_wrapper">
-            <img alt="Link" class="Imagestyles_cloud" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_200/ncom/en_US/merchandising/Character%20Portals/The%20Legend%20of%20Zelda/1600x1600_character" />
-          </div>
-        </a>
-        <h3 class="Heading_styles">
-          The Legend of Zelda™
-        </h3>
-      </div>
-      <div class="Characters_styles">
-        <!--Parte Foto Splatoon-->
-        <a aria-label="Splatoon" href="https://splatoon.nintendo.com/" class="Characters_anchor">
-          <div class="Image_styles">
-            <img alt="" src="https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/Character Portals/Ncom_CharacterRail_1600x1600_Splatoon_BG" class="styles_image" />
-          </div>
-          <div class="Image_wrapper">
-            <img alt="Splatoon" class="Imagestyles_cloud" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_200/ncom/en_US/merchandising/Character%20Portals/Ncom_CharacterRail_1600x1600_Splatoon_character_v2" />
-          </div>
-        </a>
-        <h3 class="Heading_styles">
-          Splatoon™
-        </h3>
-      </div>
-      <div class="Characters_styles">
-        <!--Parte Foto Kirby-->
-        <a aria-label="Kirby" href="https://kirby.nintendo.com" class="Characters_anchor">
-          <div class="Image_styles">
-            <img alt="" src="https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/Character Portals/1600x1600_NCOM_Home_Characters_Kirby_BG" class="styles_image" />
-          </div>
-          <div class="Image_wrapper">
-            <img alt="Kirby" class="Imagestyles_cloud" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_200/ncom/en_US/merchandising/Character%20Portals/1600x1600_NCOM_Home_Characters_Kirby" />
-          </div>
-        </a>
-        <h3 class="Heading_styles">Kirby™</h3>
-      </div>
-      <div class="Characters_styles">
-        <!--Parte Foto Pikmin-->
-        <a href="https://pikmin.nintendo.com/" class="Characters_anchor">
-          <div class="Image_styles">
-            <img alt="" src="https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/CREATIVE-1295-CharacterSection-Background-Pikmin_v02" class="styles_image" />
-          </div>
-          <div class="Image_wrapper">
-            <img class="Imagestyles_cloud" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_200/ncom/en_US/merchandising/CREATIVE-1295-CharacterSection-Character-Pikmin_v02" />
-          </div>
-        </a>
-        <h3 class="Heading_styles">
-          Pikmin™️
-        </h3>
-      </div>
-      <div class="Characters_styles">
-        <!--Parte Foto Animal Crossing-->
-        <a aria-label="Tom Nook and Isabelle" href="https://animalcrossing.nintendo.com" class="Characters_anchor">
-          <div class="Image_styles">
-            <img alt="" src="https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/CREATIVE-1295-CharacterSection-Background-AnimalCrossing" class="styles_image" />
-          </div>
-          <div class="Image_wrapper">
-            <img alt="Tom Nook and Isabelle" class="Imagestyles_cloud" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_200/ncom/en_US/merchandising/CREATIVE-1295-CharacterSection-Character-AnimalCrossing_v01" />
-          </div>
-        </a>
-        <h3 class="Heading_styles">
-          Animal Crossing™️
-        </h3>
-      </div>
-      <div class="Characters_styles">
-        <!--Parte Foto Metroid-->
-        <a href="https://metroid.nintendo.com/" class="Characters_anchor">
-          <div class="Image_styles">
-            <img alt="" src="https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/CREATIVE-1295-CharacterSection-Background-Metroid_v01" class="styles_image" />
-          </div>
-          <div class="Image_wrapper">
-            <img class="Imagestyles_cloud" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_200/ncom/en_US/merchandising/CREATIVE-1295-CharacterSection-Character-Metroid_v01" />
-          </div>
-        </a>
-        <h3 class="Heading_styles">
-          Metroid™️
-        </h3>
-      </div>
-      <div class="Characters_styles">
-        <!--Parte Foto Pokemon-->
-        <a href="https://www.pokemon.com/us" class="Characters_anchor">
-          <div class="Image_styles">
-            <img alt="" src="https://assets.nintendo.com/image/upload/q_auto/f_auto/c_fill,h_300,w_300/dpr_2.0/ncom/en_US/merchandising/CREATIVE-1295-CharacterSection-Background-Pokemon_v01" class="styles_image" />
-          </div>
-          <div class="Image_wrapper">
-            <img class="Imagestyles_cloud" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.25/c_scale,w_200/ncom/en_US/merchandising/CREATIVE-1295-CharacterSection-Character-Pokemon_v01" />
-          </div>
-        </a>
-        <h3 class="Heading_styles">
-          Pokémon™
-        </h3>
-      </div>
+      <h3 class="titulo">Super Mario™</h3>
   </div>
+
+  <div class="carta">
+      <div class="contenedor">
+          <img src="./src/images/Fotos Characters/ZeldaFondo.jpg" alt="" class="zeldafondo" />
+          <img src="./src/images/Fotos Characters/ZeldaFoto.jpg" alt="" class="zeldafoto" />
+      </div>
+      <h3 class="titulo">The Legend Of Zelda™</h3>
   </div>
-  </section>
-  <div class="Divider_styles" role="presentation">
-    <hr class="Style_product" />
+
+  <div class="carta">
+      <div class="contenedor">
+          <img src="./src/images/Fotos Characters/SplatoonFondo.jpg" alt="" class="splafondo" />
+          <img src="./src/images/Fotos Characters/SplatoonFoto.jpg" alt="" class="splafoto" />
+      </div>
+      <h3 class="titulo">Splatoon™</h3>
   </div>
-  <section class="Section_styles">
-    <div class="Style_constraid">
-      <div class="Product_Collection">
-        <div class="HeadingC_styles">
-          <h2 class="HeadingH_styles">
+
+  <div class="carta">
+      <div class="contenedor">
+          <img src="./src/images/Fotos Characters/KirbyFondo.jpg" alt="" class="kirbyfondo" />
+          <img src="./src/images/Fotos Characters/KirbyFoto.jpg" alt="" class="kirbyfoto" />
+      </div>
+      <h3 class="titulo">Kirby™</h3>
+  </div>
+
+  <div class="carta">
+      <div class="contenedor">
+          <img src="./src/images/Fotos Characters/PikminFondo.jpg" alt="" class="pikminfondo" />
+          <img src="./src/images/Fotos Characters/PikminFoto.jpg" alt="" class="pikminfoto" />
+      </div>
+      <h3 class="titulo">Pikmin™</h3>
+  </div>
+  <div class="carta">
+      <div class="contenedor">
+          <img src="./src/images/Fotos Characters/AnimalCrossingFondo.jpg" alt="" class="animalfondo" />
+          <img src="./src/images/Fotos Characters/AnimalCrossingFoto.jpg" alt="" class="animalfoto" />
+      </div>
+      <h3 class="titulo">Animal Crossing™</h3>
+  </div>
+
+  <div class="carta">
+      <div class="contenedor">
+          <img src="./src/images/Fotos Characters/MetroidFondo.jpg" alt="" class="metrofondo" />
+          <img src="./src/images/Fotos Characters/MetroidFoto.jpg" alt="" class="metrofoto" />
+      </div>
+      <h3 class="titulo">Metroid™</h3>
+  </div>
+
+  <div class="carta">
+      <div class="contenedor">
+          <img src="./src/images/Fotos Characters/PokemonFondo.jpg" alt="" class="pokefondo" />
+          <img src="./src/images/Fotos Characters/PokemonFoto.jpg" alt="" class="pokefoto" />
+      </div>
+      <h3 class="titulo">Pokemon™</h3>
+  </div>
+</div>
+</section>
 
             <!-- separador -->
             <div class="divider-styles" role="presentation">
