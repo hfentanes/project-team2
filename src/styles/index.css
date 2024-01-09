@@ -308,13 +308,13 @@
   padding: 0.9rem 2rem;
   width: auto;
   background-color: rgb(217, 1, 1);
-  transition: background-color 0.2s cubic-bezier(0.94, 0.76, 0, 1.7),
-  transform 0.2s cubic-bezier(0.94, 0.76, 0, 1.7);
 }
 
 .blog-button:hover {
   background-color: rgb(172, 0, 0);
   transform: scale(1.05);
+  transition: background-color 0.2s cubic-bezier(0.94, 0.76, 0, 1.7),
+  transform 0.2s cubic-bezier(0.94, 0.76, 0, 1.7);
 }
 
 .svg-blog {
@@ -349,6 +349,10 @@
 
   .art-title{
     height: 6rem;
+  }
+  .blog-button{
+    justify-content: center;
+    width: 100%;
   }
 }
 
