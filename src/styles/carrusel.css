@@ -195,6 +195,7 @@ hr{
 
   .slide p {
     font-size: 18px; /* Ajusta el tamaño del texto */
+   text-align: center;
     
   }
 
@@ -203,6 +204,9 @@ hr{
     width: 90%;
     
     
+  }
+ .fondo {
+    height: 400px; /* Ajusta la altura del fondo para pantallas medianas */
   }
   
   hr{
@@ -227,12 +231,17 @@ hr{
   .slide img{
       width: 100%;
   }
+ .fondo {
+    height: 400px; /* Ajusta la altura del fondo para pantallas medianas */
+  }
   
   hr{
     display: block;
   }
   .slide p {
     font-size: 24px; /* Ajusta el tamaño del texto */
+   text-align: center;
+    
   }
 
   .indicador label {
