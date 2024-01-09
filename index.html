@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="./src/styles/fonts.css">
   <link rel="stylesheet" href="./src/styles/index.css">
   <link rel="stylesheet" href="./src/styles/vitrinas.css">
+  <link rel="stylesheet" href="./src/styles/carrusel.css">
 
 </head>
 
@@ -240,7 +241,52 @@
 
       <!----Aquí termina  el header-->
 
+      <!----Aquí empieza el carrusel-->
+       <div class="fondo"></div>
 
+       <div class="carrusel">
+   
+           <div class="slides">
+   
+               <div class="slide">
+                   <img src="src/images/carrusel/1.PNG" alt="Imagen 1">
+                   <p>
+                       Save on system bundles with games included <button>Shop the deals</button>
+                   </p>
+               </div>
+               <div class="slide">
+                   <img src="src/images/carrusel/2.PNG" alt="Imagen 2">
+                   <p>
+                       Last chance to save up to 50% on select games! <button>Bring on the bargains</button>
+                   </p>
+               </div>
+               <div class="slide">
+                   <img src="src/images/carrusel/3.PNG" alt="Imagen 3">
+                   <p>
+                       Check off your list with our Holiday Gift Guide <button>Start shopping</button>
+                   </p>
+               </div>
+           </div>
+           <div class="botones">
+               <button class="anterior">&#10094;</button>
+               <button class="play">▶</button>
+               <div class="indicador">
+                   <input type="radio" name="imagen" id="imagen1" value="0" checked>
+                   <label for="imagen1"></label>
+                   <input type="radio" name="imagen" id="imagen2" value="1">
+                   <label for="imagen2"></label>
+                   <input type="radio" name="imagen" id="imagen3" value="2">
+                   <label for="imagen3"></label>
+                 </div>
+               <button class="siguiente">&#10095;</button>
+   
+           </div>
+       </div>
+       </div>
+       <script src="src/scripts/script.js"></script>
+   
+   
+      <!-- Aquí termina el carrusel-->
 
 
 
