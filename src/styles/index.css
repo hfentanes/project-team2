@@ -159,7 +159,7 @@
 } */
 
 .blog-container {
-  margin: 4rem;
+  margin: 2rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem 2rem;
@@ -170,7 +170,8 @@
   grid-column: 1 / span 4;
   display: flex;
   align-items: center;
-  font-weight: bold;
+  font-family: "Museo Sans";
+  font-weight: 300;
   font-size: 1.3rem;
 }
 
@@ -206,6 +207,8 @@
 
 /* TEXTO DE LOS ARTÍCULOS 1 Y 2*/
 .art-txt {
+  font-family: "Museo Sans";
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -216,21 +219,30 @@
 }
 
 .art-date {
+  font-family: "Museo Sans";
   font-weight: 300;
   padding-bottom: 1rem;
+  color: rgba(0, 0, 0, 0.708);
 }
 
 .art-title {
-  font-size: 1rem;
+  font-family: "Museo Sans";
+  font-weight: 300;
   font-weight: bold;
   padding-bottom: 1rem;
   flex-grow: 1;
   height: 4rem;
+  color: rgba(0, 0, 0, 0.74);
+
 }
 
 .art-description {
+  font-family: "Museo Sans";
+  font-weight: 300;
+  font-size: 0.9rem;
   padding-bottom: 1rem;
   flex-grow: 1;
+  color: rgba(0, 0, 0, 0.708);
 }
 
 .blog-container .section:hover .art-title {
@@ -319,7 +331,7 @@
 
 @media (max-width: 1000px){
   .art-title{
-    height: 8rem;
+    height: 10rem;
   }
 
   .blog-button{
@@ -343,5 +355,11 @@
 
   .art-title{
     height: 6rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .art-title{
+    height: 10rem;
   }
 }
