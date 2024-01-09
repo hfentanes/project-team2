@@ -1,4 +1,4 @@
-  /*Voy a importar la fuente*/
+ /*Voy a importar la fuente*/
   @font-face {
     font-family: "Museo Sans";
     src: url(../fonts/museo-sans-700.ttf) format("truetype");
@@ -162,10 +162,24 @@
     
 }
 
+.indicador label:hover {
+    background-color: #e60012;
+}
+
 .indicador input[type="radio"]:checked+label {
     background-color: #484848;
     
     /* Color para el radio seleccionado */
+}
+
+.indicador input[type="radio"]:checked+label:hover {
+    background-color: #e60012;
+
+    /* Color para el radio seleccionado al pasar el cursor por encima */
+}
+
+hr{
+  display: none;
 }
 
 /* Media query para pantallas más pequeñas */
@@ -181,9 +195,19 @@
 
   .slide p {
     font-size: 18px; /* Ajusta el tamaño del texto */
+    
   }
 
+
+  .slide p button {
+    width: 90%;
+    
+    
+  }
   
+  hr{
+    display: block;
+  }
 
   .indicador label {
     padding: 1px 20px; /* Reduce el padding de los botones de radio */
@@ -196,10 +220,17 @@
     margin-left: 5%; /* Ajusta el margen izquierdo para pantallas medianas */
   }
 
+  .slide p button {
+    width: 90%;
+
+  }
   .slide img{
       width: 100%;
   }
   
+  hr{
+    display: block;
+  }
   .slide p {
     font-size: 24px; /* Ajusta el tamaño del texto */
   }
