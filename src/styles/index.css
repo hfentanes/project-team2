@@ -232,6 +232,7 @@
   padding-bottom: 1rem;
   flex-grow: 1;
   height: 4rem;
+  border-bottom: 4rem;
   color: rgba(0, 0, 0, 0.74);
 
 }
