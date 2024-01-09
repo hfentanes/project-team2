@@ -31,7 +31,7 @@
 
 
 .body{
-    margin: 0 ;
+    margin: 0;
     padding: 0;
     
 }
@@ -455,9 +455,23 @@
     align-items: center;
     border-radius: 0.75rem;
     cursor: pointer;
-
-    
+    margin-right: 90px;    
 }
+.pepe-bestsellers-seelist-button:nth-last-of-type(2){
+    position: relative;
+    min-height: 345px;
+    min-width: 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    margin-right: 52px;    
+}
+
+
+
+
 .pepe-bestsellers-seelist-button-background{
     height: 100%;
     width: 100%;

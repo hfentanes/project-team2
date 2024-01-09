@@ -1,0 +1,250 @@
+ /*Voy a importar la fuente*/
+  @font-face {
+    font-family: "Museo Sans";
+    src: url(../fonts/museo-sans-700.ttf) format("truetype");
+}
+
+
+
+.carrusel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.slides {
+    display: flex;
+    /* Crea un contenedor flexible para las imágenes */
+    transition: transform 0.5s ease;
+    /* Agrega una transición suave entre imágenes */
+    margin-left: 12%;
+    margin-top: 50px;
+}
+
+.slide img{
+
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(112, 112, 112, 0.5);
+}
+
+.slide {
+    flex: 0 0 100%;
+    /* Ancho del slide igual al 100% */
+}
+
+.slide p {
+    font-family: "Museo Sans";
+    font-size: 28px;
+    line-height: 38px;
+    color: #484848;
+}
+
+.slide p button {
+    font-family: "Museo Sans";
+    background-color: #e60012;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.slide p button:hover {
+    background-color: #ac000d;
+}
+
+
+
+.fondo {
+    position: absolute;
+    top: 10;
+    /* Ajusta la posición vertical */
+    left: 0;
+    /* Ajusta la posición horizontal */
+    width: 100%;
+    /* Ancho del fondo */
+    height: 500px;
+    /* Altura del fondo */
+    background-image: url("../images/carrusel/4.jpg");
+    /* URL del fondo */
+    background-repeat: repeat;
+    /* Esto hará que la imagen se repita como un mosaico */
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    /* Centrado horizontal */
+    align-items: center;
+    /* Centrado vertical */
+    margin-top: 20px;
+}
+
+
+
+.siguiente,
+.anterior {
+    font-family: "Museo Sans";
+    /* Tipo de fuente */
+    font-size: 21px;
+    line-height: 21px;
+    background-color: #484848;
+    /* Color del texto */
+    color: #ffffff;
+    /* Color de fondo */
+    padding: 10px 15px;
+    /* Espaciado interno */
+    border: none;
+    /* Borde */
+    border-radius: 50px;
+    /* Bordes redondeados */
+    display: inline-block;
+    /* Hace que el label sea en línea y respete el padding */
+    margin: 5px 5px;
+    /* Margen exterior */
+    text-align: center;
+}
+
+.siguiente:hover,
+.anterior:hover {
+    background-color: #e60012;
+    /* Color de fondo al pasar el cursor por encima */
+    border: none;
+}
+
+.play {
+    font-family: "Museo Sans";
+    /* Tipo de fuente */
+    font-size: 21px;
+    line-height: 21px;
+    background-color: #484848;
+    /* Color del texto */
+    color: #ffffff;
+    /* Color de fondo */
+    padding: 10px;
+    /* Espaciado interno */
+    border: none;
+    /* Borde */
+    border-radius: 50px;
+    /* Bordes redondeados */
+    display: inline-block;
+    /* Hace que el label sea en línea y respete el padding */
+    margin: 5px 5px;
+    /*Margenes*/
+}
+
+.play:hover {
+    background-color: #e60012;
+    /* Color de fondo al pasar el cursor por encima */
+}
+
+.indicador {
+    display: flex;
+    align-items: center;
+
+}
+
+.indicador input[type="radio"] {
+    display: none;
+}
+
+.indicador label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 20%;
+    background-color: #aaa;
+    margin: 0px 10px;
+    cursor: pointer;
+    padding: 1px 35px;
+    
+}
+
+.indicador label:hover {
+    background-color: #e60012;
+}
+
+.indicador input[type="radio"]:checked+label {
+    background-color: #484848;
+    
+    /* Color para el radio seleccionado */
+}
+
+.indicador input[type="radio"]:checked+label:hover {
+    background-color: #e60012;
+
+    /* Color para el radio seleccionado al pasar el cursor por encima */
+}
+
+hr{
+  display: none;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .slides {
+    margin-left: 0; /* Cambia el margen izquierdo para adaptarse a pantallas más pequeñas */
+  }
+
+  .slide img {
+      width: 100%;
+      
+    }
+
+  .slide p {
+    font-size: 18px; /* Ajusta el tamaño del texto */
+   text-align: center;
+    
+  }
+
+
+  .slide p button {
+    width: 90%;
+    
+    
+  }
+ .fondo {
+    height: 400px; /* Ajusta la altura del fondo para pantallas medianas */
+  }
+  
+  hr{
+    display: block;
+  }
+
+  .indicador label {
+    padding: 1px 20px; /* Reduce el padding de los botones de radio */
+  }
+}
+
+/* Media query para pantallas medianas */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .slides {
+    margin-left: 5%; /* Ajusta el margen izquierdo para pantallas medianas */
+  }
+
+  .slide p button {
+    width: 90%;
+
+  }
+  .slide img{
+      width: 100%;
+  }
+ .fondo {
+    height: 400px; /* Ajusta la altura del fondo para pantallas medianas */
+  }
+  
+  hr{
+    display: block;
+  }
+  .slide p {
+    font-size: 24px; /* Ajusta el tamaño del texto */
+   text-align: center;
+    
+  }
+
+  .indicador label {
+    padding: 1px 30px; /* Ajusta el padding de los botones de radio */
+  }
+}
