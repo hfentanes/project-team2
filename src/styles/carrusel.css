@@ -190,27 +190,37 @@ hr{
 
   .slide img {
       width: 100%;
+      height: 100%;
+      margin-top: -50px;
+      margin-bottom: 20px;
       
     }
 
   .slide p {
     font-size: 18px; /* Ajusta el tamaño del texto */
-   text-align: center;
-    
+    text-align: center;
   }
 
+  .fondo {
+    height: 400px; /* Ajusta la altura del fondo para pantallas más pequeñas */
+  }
 
   .slide p button {
     width: 90%;
+    margin-top: 20px;
     
     
-  }
- .fondo {
-    height: 400px; /* Ajusta la altura del fondo para pantallas medianas */
   }
   
   hr{
     display: block;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .botones{
+    position: relative;
+    margin-top: 100px;
   }
 
   .indicador label {
@@ -218,10 +228,29 @@ hr{
   }
 }
 
+@media (min-width:393px) and (max-width: 786px){
+  .botones{
+    position: relative;
+    margin-top: 150px;
+  }
+  
+}
+
 /* Media query para pantallas medianas */
 @media (min-width: 769px) and (max-width: 1024px) {
   .slides {
     margin-left: 5%; /* Ajusta el margen izquierdo para pantallas medianas */
+    display: flex;
+    justify-content: space-between;
+    
+    
+  }
+  .slide{
+    margin-right: 15px;
+    
+  }
+  .slide:nth-child(3n) {
+    margin-left: 0; /* Elimina el margen derecho de la última imagen en cada fila */
   }
 
   .slide p button {
@@ -229,21 +258,32 @@ hr{
 
   }
   .slide img{
-      width: 100%;
-  }
- .fondo {
-    height: 400px; /* Ajusta la altura del fondo para pantallas medianas */
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    
+    
   }
   
   hr{
     display: block;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .botones{
+    position: relative;
+    margin-top: 100px;
   }
   .slide p {
     font-size: 24px; /* Ajusta el tamaño del texto */
-   text-align: center;
-    
+    text-align: center;
   }
 
+  .fondo {
+    height: 400px; /* Ajusta la altura del fondo para pantallas medianas */
+  }
   .indicador label {
     padding: 1px 30px; /* Ajusta el padding de los botones de radio */
   }
