@@ -1,0 +1,366 @@
+@font-face {
+    font-family: "Museo Sans";
+    src: url(./fonts/MuseoSans-300.otf);
+    font-weight: 300;
+  }
+
+@font-face {
+    font-family: "Museo Sans";
+    src: url(./fonts/MuseoSans_700.otf);
+    font-weight: 700;
+  }
+
+@font-face {
+    font-family: "Museo Sans";
+    src: url(./fonts/MuseoSans_500.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Museo Sans";
+    src: url(./fonts/MuseoSans-100.otf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Museo Sans";
+    src: url(./fonts/MuseoSans_900.otf);
+    font-weight: 900;
+}
+.titulo1{
+    font-size: 27px;
+    font-family:"Museo Sans";
+    font-weight: 700;
+    color: #484848;
+    margin: 0;
+    padding: 0;
+    margin-left: 27.5%;
+    margin-bottom: 1.5rem;
+    margin-top: 45px;
+
+
+}
+@media (max-width:1158px){
+    .titulo1{
+        margin-left: 2rem;
+    }
+}
+
+
+.seccion{
+    width: 100%;
+    justify-content: center;
+    height: auto;
+}
+
+.contenedor-total{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(15rem,5fr));
+    gap: 1rem;
+    max-width: 1144px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 272px;
+    max-height: 272px;
+    position: relative;
+    overflow: hidden;
+    border-radius: .75rem;
+}
+.contenedor img{
+    cursor: pointer;
+
+}
+
+.titulo{
+    font-family:"Museo Sans";
+    font-weight: 700;
+    color: #484848;
+
+}
+
+.mariofondo{
+    flex: 1;
+    transform: scale(0.50);    
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    transition: 0.2s ease;
+
+}
+
+.mario{
+    flex: 1;
+    transform: scale(0.92); 
+    z-index: 1;
+    transition:  0.2s ease;
+}
+
+
+.contenedor:hover .mariofondo{
+    transform: scale(0.455);
+}
+
+.contenedor:hover .mario{
+    transform: scale(1.05);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 272px;
+    max-height: 272px;
+    position: relative;
+    overflow: hidden;
+    border-radius: .75rem;
+
+}
+
+.zeldafondo{
+    flex: 1;
+    transform: scale(0.50);    
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    transition: 0.2s ease;
+
+}
+.zeldafoto{
+    flex: 1;
+    transform: scale(0.92); 
+    z-index: 1;
+    transition:  0.2s ease;
+}
+
+
+.contenedor:hover .zeldafondo{
+    transform: scale(0.455);
+}
+
+.contenedor:hover .zeldafoto{
+    transform: scale(1.05);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 272px;
+    max-height: 272px;
+    position: relative;
+    overflow: hidden;
+    border-radius: .75rem;
+
+}
+
+.splafondo{
+    flex: 1;
+    transform: scale(0.50);    
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    transition: 0.2s ease;
+
+}
+.splafoto{
+    flex: 1;
+    transform: scale(0.92); 
+    z-index: 1;
+    transition:  0.2s ease;
+}
+
+
+.contenedor:hover .splafondo{
+    transform: scale(0.455);
+}
+
+.contenedor:hover .splafoto{
+    transform: scale(1.05);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 272px;
+    max-height: 272px;
+    position: relative;
+    overflow: hidden;
+    border-radius: .75rem;
+
+}
+
+.kirbyfondo{
+    flex: 1;
+    transform: scale(0.50);    
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    transition: 0.2s ease;
+
+}
+.kirbyfoto{
+    flex: 1;
+    transform: scale(0.92); 
+    z-index: 1;
+    transition:  0.2s ease;
+}
+
+
+.contenedor:hover .kirbyfondo{
+    transform: scale(0.455);
+}
+
+.contenedor:hover .kirbyfoto{
+    transform: scale(1.05);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 272px;
+    max-height: 272px;
+    position: relative;
+    overflow: hidden;
+    border-radius: .75rem;
+
+}
+
+.pikminfondo{
+    flex: 1;
+    transform: scale(0.50);    
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    transition: 0.2s ease;
+
+}
+.pikminfoto{
+    flex: 1;
+    transform: scale(0.92); 
+    z-index: 1;
+    transition:  0.2s ease;
+}
+
+
+.contenedor:hover .pikminfondo{
+    transform: scale(0.455);
+}
+
+.contenedor:hover .pikminfoto{
+    transform: scale(1.05);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 272px;
+    max-height: 272px;
+    position: relative;
+    overflow: hidden;
+    border-radius: .75rem;
+
+}
+
+.animalfondo{
+    flex: 1;
+    transform: scale(0.50);    
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    transition: 0.2s ease;
+
+}
+.animalfoto{
+    flex: 1;
+    transform: scale(0.92); 
+    z-index: 1;
+    transition:  0.2s ease;
+}
+
+
+.contenedor:hover .animalfondo{
+    transform: scale(0.455);
+}
+
+.contenedor:hover .animalfoto{
+    transform: scale(1.05);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 272px;
+    max-height: 272px;
+    position: relative;
+    overflow: hidden;
+    border-radius: .75rem;
+
+}
+
+.metrofondo{
+    flex: 1;
+    transform: scale(0.50);    
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    transition: 0.2s ease;
+
+}
+.metrofoto{
+    flex: 1;
+    transform: scale(0.92); 
+    z-index: 1;
+    transition:  0.2s ease;
+}
+
+
+.contenedor:hover .metrofondo{
+    transform: scale(0.455);
+}
+
+.contenedor:hover .metrofoto{
+    transform: scale(1.05);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 272px;
+    max-height: 272px;
+    position: relative;
+    overflow: hidden;
+    border-radius: .75rem;
+
+}
+
+.pokefondo{
+    flex: 1;
+    transform: scale(0.50);    
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    transition: 0.2s ease;
+
+}
+.pokefoto{
+    flex: 1;
+    transform: scale(0.92); 
+    z-index: 1;
+    transition:  0.2s ease;
+}
+
+
+.contenedor:hover .pokefondo{
+    transform: scale(0.455);
+}
+
+.contenedor:hover .pokefoto{
+    transform: scale(1.05);
+}
+
+
+
