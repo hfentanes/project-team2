@@ -1,3 +1,7 @@
+*{
+  font-family: "Museo Sans", sans-serif;
+}
+
 /* sección de banners */
 .section-styles {
   max-width: 1144px;
@@ -66,6 +70,7 @@
   font-size: 1.125rem;
   color: #fff;
   border-radius: 0.5rem;
+  margin: 0px 10px;
 }
 
 .button-background {
@@ -98,6 +103,32 @@
 }
 
 @media (max-width: 1025px) {
+  .style-98{
+    display: none;
+  }
+  .style-71 a, .style-71 button{
+    display: none;
+  }
+  a.style-93{
+    display: block;
+  }
+  .style-10{
+    display: none;
+  }
+  .style-3{
+    background-color: rgb(230, 0, 18) !important;
+  }
+  .style-3 > *{
+    background-color: rgb(230, 0, 18) !important;
+  }
+  .style-94 {
+    border: 1px solid rgb(230, 0, 18) !important;
+  }
+  .style-2842{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+  }
   * {
     box-sizing: border-box;
   }

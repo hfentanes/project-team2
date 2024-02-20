@@ -1,6 +1,6 @@
- /*Voy a importar la fuente*/
+  /*Voy a importar la fuente*/
   @font-face {
-    font-family: "Museo Sans";
+    font-family: "Museo Sans", sans-serif;
     src: url(../fonts/museo-sans-700.ttf) format("truetype");
 }
 
@@ -25,7 +25,6 @@
 .slide img{
 
   border-radius: 20px;
-  box-shadow: 5px 5px 10px rgba(112, 112, 112, 0.5);
 }
 
 .slide {
@@ -34,14 +33,14 @@
 }
 
 .slide p {
-    font-family: "Museo Sans";
+    font-family: "Museo Sans", sans-serif;
     font-size: 28px;
     line-height: 38px;
     color: #484848;
 }
 
 .slide p button {
-    font-family: "Museo Sans";
+    font-family: "Museo Sans", sans-serif;
     background-color: #e60012;
     color: white;
     font-size: 18px;
@@ -86,7 +85,7 @@
 
 .siguiente,
 .anterior {
-    font-family: "Museo Sans";
+    font-family: "Museo Sans", sans-serif;
     /* Tipo de fuente */
     font-size: 21px;
     line-height: 21px;
@@ -115,7 +114,7 @@
 }
 
 .play {
-    font-family: "Museo Sans";
+    font-family: "Museo Sans", sans-serif;
     /* Tipo de fuente */
     font-size: 21px;
     line-height: 21px;
@@ -162,24 +161,10 @@
     
 }
 
-.indicador label:hover {
-    background-color: #e60012;
-}
-
 .indicador input[type="radio"]:checked+label {
     background-color: #484848;
     
     /* Color para el radio seleccionado */
-}
-
-.indicador input[type="radio"]:checked+label:hover {
-    background-color: #e60012;
-
-    /* Color para el radio seleccionado al pasar el cursor por encima */
-}
-
-hr{
-  display: none;
 }
 
 /* Media query para pantallas más pequeñas */
@@ -190,100 +175,34 @@ hr{
 
   .slide img {
       width: 100%;
-      height: 100%;
-      margin-top: -50px;
-      margin-bottom: 20px;
       
     }
 
   .slide p {
     font-size: 18px; /* Ajusta el tamaño del texto */
-    text-align: center;
   }
 
-  .fondo {
-    height: 400px; /* Ajusta la altura del fondo para pantallas más pequeñas */
-  }
-
-  .slide p button {
-    width: 90%;
-    margin-top: 20px;
-    
-    
-  }
   
-  hr{
-    display: block;
-    position: relative;
-    margin-top: 20px;
-  }
-
-  .botones{
-    position: relative;
-    margin-top: 100px;
-  }
 
   .indicador label {
     padding: 1px 20px; /* Reduce el padding de los botones de radio */
   }
 }
 
-@media (min-width:393px) and (max-width: 786px){
-  .botones{
-    position: relative;
-    margin-top: 150px;
-  }
-  
-}
-
 /* Media query para pantallas medianas */
 @media (min-width: 769px) and (max-width: 1024px) {
   .slides {
     margin-left: 5%; /* Ajusta el margen izquierdo para pantallas medianas */
-    display: flex;
-    justify-content: space-between;
-    
-    
-  }
-  .slide{
-    margin-right: 15px;
-    
-  }
-  .slide:nth-child(3n) {
-    margin-left: 0; /* Elimina el margen derecho de la última imagen en cada fila */
   }
 
-  .slide p button {
-    width: 90%;
-
-  }
   .slide img{
-    width: 100%;
-    height: 100%;
-    margin-top: -50px;
-    margin-bottom: 20px;
-    
-    
+      width: 100%;
   }
   
-  hr{
-    display: block;
-    position: relative;
-    margin-top: 20px;
-  }
-
-  .botones{
-    position: relative;
-    margin-top: 100px;
-  }
   .slide p {
     font-size: 24px; /* Ajusta el tamaño del texto */
-    text-align: center;
   }
 
-  .fondo {
-    height: 400px; /* Ajusta la altura del fondo para pantallas medianas */
-  }
   .indicador label {
     padding: 1px 30px; /* Ajusta el padding de los botones de radio */
   }
